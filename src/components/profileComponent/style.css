@@ -1,0 +1,8 @@
+.profileContent{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.profileContent h2{
+    font-size: var(--info-text);
+}

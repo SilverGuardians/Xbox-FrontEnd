@@ -32,14 +32,16 @@
     --margin-left: 0 0 0 3rem;
     --margin-bottom: 0 0 3rem 0;
 
-    --info-text: 1.2rem;
+    --info-text: 1rem;
     --title-text: 1.9rem;
 
     
 }
 body{
     background: var(--first-color);
-    padding: var(--padding);
+}
+main{
+    padding: var(--padding-2);
 }
 h2{
     color: var(--gray-color);
