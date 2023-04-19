@@ -1,11 +1,15 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './global/globalStyle.css'
+import Store from './pages/store';
+import NavbarVolta from './components/navbarVolta';
 
 function App() {
   return (
-    <>
-        <h2>app</h2>
-        <h3>teste teste</h3>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Store/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,12 @@
+.profileContent{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.profileContent img{
+    width: 32px;
+    height: 32px;
+}
+.profileContent h2{
+    font-size: var(--info-text);
+}

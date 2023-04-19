@@ -1,0 +1,35 @@
+.navbar {
+    background-color: var(--rgb-color);
+    box-shadow:0 0 5px rgb(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--info-text);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+    height: 60px;
+    max-width: 1500px;
+  }
+  
+  .nav-logo{
+    color: var(--white-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav-hour h2{
+    font-size: var(--info-text);
+  }
+  
+  @media screen and (max-width: 991px) {
+  }

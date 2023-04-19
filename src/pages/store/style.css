@@ -1,0 +1,12 @@
+.store-container{
+
+}
+.store-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: var(--padding-2);
+}
+.store-container .back img{
+    color: var(--white-color);
+}

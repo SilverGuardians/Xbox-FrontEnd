@@ -13,6 +13,7 @@
     --green-2-color: #26BF26;
     --gray-color: #ADADAD;
     --white-color: #fff;
+    --rgb--color: rgba(255, 255, 255, .09):
 
     --padding-1: 1rem;
     --padding-2: 2rem;
@@ -32,14 +33,16 @@
     --margin-left: 0 0 0 3rem;
     --margin-bottom: 0 0 3rem 0;
 
-    --info-text: 1.2rem;
+    --info-text: 1rem;
     --title-text: 1.9rem;
 
     
 }
 body{
     background: var(--first-color);
-    padding: var(--padding);
+}
+main{
+    padding: var(--padding-2);
 }
 h2{
     color: var(--gray-color);

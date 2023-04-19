@@ -1,0 +1,14 @@
+.games-container{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    align-items: center;
+    gap:2rem ;
+}
+.games-container .games-box{
+    
+    width: 300px;
+    height: 400px;
+    background: red;
+
+}
