@@ -1,0 +1,34 @@
+.navbarback {
+    background-color: transparent;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--info-text);
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .nav-backcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    max-width: 1500px;
+  }
+  
+  .nav-hour h2{
+    font-size: var(--info-text);
+  }
+
+  .nav-back{
+    color: var(--white-color);
+    cursor: pointer;
+    justify-content: space-around;
+  }
+  
+  @media screen and (max-width: 991px) {
+  }
