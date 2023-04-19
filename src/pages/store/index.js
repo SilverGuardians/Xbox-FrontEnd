@@ -1,20 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Annoucement from '../../components/storeComponents/announcement'
 import Navbar from '../../components/navbar'
 import Voltar from '../../assets/voltar.png'
+import './style.css'
 
 const Store = () => {
     return (
         <>
             <Navbar />
             <main>
-                <div className="store-title">
-                    <h2>Microsoft Store</h2>
+                <div className='store-container'>
+                    <div className="store-title">
+                        <h2>Microsoft Store</h2>
+                    </div>
+                    <div className='back'>
+                        <Link to='/'><img src={Voltar} alt="Voltar" /></Link>     
+                    </div>
+                    <Annoucement />
                 </div>
-                <div className='back'>
-                    <a href="/"><img src={Voltar} alt="Voltar" /><h1>Informações do Show</h1></a>
-                </div>
-                <Annoucement />
             </main>
         </>
     )

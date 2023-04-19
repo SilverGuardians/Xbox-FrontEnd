@@ -1,0 +1,11 @@
+.store-container{
+
+}
+.store-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store-container .back img{
+    color: var(--white-color);
+}
