@@ -1,14 +1,40 @@
-.games-container{
-    display: flex;
-    justify-content: center;
-    overflow-x: auto;
-    align-items: center;
-    gap:2rem ;
+.games-container {
+    margin-bottom: var(--margin-2);
 }
-.games-container .games-box{
-    
-    width: 300px;
-    height: 400px;
-    background: red;
 
+.games-container .games-content {
+    display: flex;
+    gap: 2rem;
+    overflow-y: hidden;
+    overflow-x: auto;
+
+}
+
+.games-container .games-box {
+    min-width: 220px;
+    height: 350px;
+    background: #ccc;
+}
+
+.games-container .games-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.15s ease;
+}
+
+.games-container .games-box img:hover {
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--second-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
 }

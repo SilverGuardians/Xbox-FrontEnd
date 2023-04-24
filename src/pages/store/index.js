@@ -6,6 +6,7 @@ import Voltar from '../../assets/voltar.png'
 import './style.css'
 import { SliderData } from '../../components/storeComponents/announcement/slider'
 import GamesList from '../../components/storeComponents/gamesList'
+import { FaSearch } from 'react-icons/fa'
 
 const Store = () => {
     return (
@@ -19,14 +20,25 @@ const Store = () => {
                     <h2>Microsoft Store</h2>
                     <div></div>
                 </div>
-                <Annoucement slides={SliderData} />
+                
+                <div>
+
+                    <Annoucement slides={SliderData} />
+                </div>
+
+                <hr className='line'></hr>
             </main>
             <main>
                 <div className="store-title">
-                    <div></div>
-                    <h2>Jogos Exclusivos</h2>
+                    <div className='search'>
+                        <div className='search-icon'>
+                            <FaSearch />
+                        </div>
+                        <input type='test' placeholder='Buscar' />
+                    </div>
                     <div></div>
                 </div>
+                <GamesList />
                 <GamesList />
             </main>
         </>

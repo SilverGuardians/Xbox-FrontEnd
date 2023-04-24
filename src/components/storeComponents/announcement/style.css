@@ -2,17 +2,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.6s;
 }
 .image{
     height: 500px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s;
+    transition: 0.3s ease;
     cursor: pointer;
 }
 .image:hover{
-    transform: translateY(-3PX);
+    transform: scale(1.03);
 }
 .right-arrow{
     width: 32px;
@@ -43,6 +44,6 @@
     color: var(--white-color);
 }
 .left-arrow:hover{
-    transform: translateY(-3px);
+    transform: scale(1.1);
       color: #ccc;
    }
