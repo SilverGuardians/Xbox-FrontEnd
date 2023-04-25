@@ -1,4 +1,5 @@
 import { React, useState } from 'react'
+import { Link } from 'react-router-dom'
 import './style.css'
 import Voltar from '../../assets/voltar.png'
 
@@ -7,11 +8,13 @@ function NavbarBack() {
         <>
             <nav className="navbarback">
                 <div className="nav-backcontainer">
-                    <div className="nav-back"> 
-                        <img src={Voltar} alt="Voltar" />
+                    <div className="nav-back">
+                        <Link to='/'>
+                            <img src={Voltar} alt="Voltar" />
+                        </Link>
                     </div>
-                   <>
-                   </>
+                    <>
+                    </>
                     <div className="nav-hour">
                         <h2>10:99</h2>
                     </div>

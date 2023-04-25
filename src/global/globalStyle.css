@@ -50,3 +50,15 @@ h2{
 h3{
     color: var(--white-color);
 }
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+   
+}
+::-webkit-scrollbar-track {
+    background: var(--second-color);
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}

@@ -13,29 +13,3 @@
 .line {
     margin-top: var(--margin-3);
 }
-
-.search {
-    width: 470px;
-    height: 30px;
-    background: #ccc;
-    display: flex;
-    transition: 0.5s;
-}
-
-.search .search-icon {
-    width: 68px;
-    height: 38px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--green-color);
-    cursor: pointer;
-}
-.search  input{
-    width: 100%;
-    height: 100%;
-    padding: 4px 10px;
-    border-radius: 1px;
-    font-size: 0.9rem;
-    border: none;
-}
