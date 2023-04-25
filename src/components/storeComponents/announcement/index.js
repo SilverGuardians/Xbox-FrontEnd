@@ -1,42 +1,40 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom';
 import './style.css'
-import { SliderData } from './slider'
-import {FaArrowCircleLeft, FaArrowCircleRight} from 'react-icons/fa'
-const Annoucement = ({ slides }) => {
 
-  const [current, setCurrent] = useState(0)
-  const length = slides.length
-
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1)
-  }
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1)
-  }
-
-  if (!Array.isArray(slides) || slides.length <= 0) {
-    return null;
-  }
+const Annoucement = () => {
 
   return (
-    <section className='slider'>
-      <FaArrowCircleLeft className='left-arrow' onClick={prevSlide}/>
-      <FaArrowCircleRight className='right-arrow' onClick={nextSlide}/>
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='teste' className='image' />
-            )}
-          </div>
-        )
+    <div className='grid-annoucement'>
+      <div className='grid-item'>
+        <img src='https://th.bing.com/th/id/R.f325bb20242b1b6ddca6a74ea47fff54?rik=Q%2feiMBkn%2fqKYzA&pid=ImgRaw&r=0' alt='teste-1'></img>
+        <div className='annoucement-info'>
+          <h3>Devil May Cry 5</h3>
+          <Link to='/gameinfo'>
+            <p>Ver mais</p>
+          </Link>
+        </div>
+      </div>
+      <div className='grid-item'>
+        <img src='https://th.bing.com/th/id/R.cd61b81452085da968a849f5488de144?rik=AZ%2bmQH6qa8kMSg&pid=ImgRaw&r=0' alt='teste-1'></img>
+        <div className='annoucement-info'>
+          <h3>Battlefield 2042</h3>
+          <Link to='/gameinfo'>
+            <p>Ver mais</p>
+          </Link>
+        </div>
+      </div>
+      <div className='grid-item'>
+        <img src='https://th.bing.com/th/id/OIP.JePE4a0UQPJqaWWbCVotCwHaEK?pid=ImgDet&rs=1' alt='teste-1'></img>
+        <div className='annoucement-info'>
+          <h3>Ghostwire</h3>
+          <Link to='/gameinfo'>
+            <p>Ver mais</p>
+          </Link>
+        </div>
+      </div>
 
-      })}
-    </section>
+    </div>
   )
 }
 

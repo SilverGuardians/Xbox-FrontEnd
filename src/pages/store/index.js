@@ -4,7 +4,6 @@ import Annoucement from '../../components/storeComponents/announcement'
 import Navbar from '../../components/navbar'
 import Voltar from '../../assets/voltar.png'
 import './style.css'
-import { SliderData } from '../../components/storeComponents/announcement/slider'
 import GamesList from '../../components/storeComponents/gamesList'
 
 const Store = () => {
@@ -20,7 +19,7 @@ const Store = () => {
                     <div></div>
                 </div>
                 <div>
-                    <Annoucement slides={SliderData} />
+                    <Annoucement/>
                 </div>
                 <hr className='line'></hr>
             </main>

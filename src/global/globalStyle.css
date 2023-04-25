@@ -13,6 +13,7 @@
     --green-2-color: #26BF26;
     --gray-color: #ADADAD;
     --white-color: #fff;
+    --black-color: #000;
     --rgb--color: rgba(255, 255, 255, .09):
 
     --padding-1: 1rem;
@@ -49,6 +50,7 @@ h2{
 }
 h3{
     color: var(--white-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 ::-webkit-scrollbar {
     width: 8px;

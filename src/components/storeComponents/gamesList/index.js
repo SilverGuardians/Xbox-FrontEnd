@@ -124,21 +124,21 @@ const GamesList = () => {
         </div>
         <div className='game-cont-gray'>
         <div className='games-box'>
-            <img src='https://i.pinimg.com/originals/0a/72/44/0a7244f33e9ba0ca5f1dd6f53b8b0ae2.jpg' alt='sixth-image'></img>
+            <img src='https://th.bing.com/th/id/OIP.7a1fK1EsVdx-5-REacwRZQHaLH?pid=ImgDet&w=533&h=800&rs=1' alt='sixth-image'></img>
             <div className='games-info'>
-              <h3>Mortal Kombat 11</h3>
+              <h3>Hollow Knight</h3>
             </div>
           </div>
           <div className='games-box'>
-            <img src='https://images.hdqwalls.com/wallpapers/ghostwire-tokyo-sc.jpg' alt='second-image'></img>
+            <img src='https://th.bing.com/th/id/OIP.MRIzG2cXPAkTdASOpHmwGgHaLH?pid=ImgDet&rs=1' alt='second-image'></img>
             <div className='games-info'>
-              <h3>Ghostwire Tokyo</h3>
+              <h3>Dead Cells</h3>
             </div>
           </div>
           <div className='games-box'>
-            <img src='https://4kwallpapers.com/images/wallpapers/battlefield-2042-e3-2021-pc-games-playstation-4-playstation-2880x1800-5613.jpg' alt='third-image'></img>
+            <img src='https://th.bing.com/th/id/R.32a1eb58778c80ff9a7571531938a247?rik=ssL%2fKo3nlyDYIA&riu=http%3a%2f%2fcdn3.dualshockers.com%2fwp-content%2fuploads%2f2016%2f03%2fOriDE_XBox_PosterArt_720x1080.jpg&ehk=X5hVuB7cj3snDw1HciGFVBhQFGjrzK6cN4RgMJ0dsP0%3d&risl=&pid=ImgRaw&r=0' alt='third-image'></img>
             <div className='games-info'>
-              <h3>Battlefield 2042</h3>
+              <h3>Ori and the Blind Forest</h3>
             </div>
           </div>
         </div>
