@@ -20,12 +20,9 @@ const Store = () => {
                     <h2>Microsoft Store</h2>
                     <div></div>
                 </div>
-                
                 <div>
-
                     <Annoucement slides={SliderData} />
                 </div>
-
                 <hr className='line'></hr>
             </main>
             <main>
@@ -38,9 +35,8 @@ const Store = () => {
                     </div>
                     <div></div>
                 </div>
-                <GamesList />
-                <GamesList />
             </main>
+                  <GamesList />
         </>
     )
 }

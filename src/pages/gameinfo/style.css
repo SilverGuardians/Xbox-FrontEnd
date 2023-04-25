@@ -15,7 +15,7 @@
 }
 
 .search {
-    width: 200px;
+    width: 470px;
     height: 30px;
     background: #ccc;
     display: flex;
@@ -28,7 +28,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
     background: var(--green-color);
     cursor: pointer;
 }
