@@ -1,5 +1,4 @@
 .navbarback {
-    background-color: transparent;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -8,6 +7,11 @@
     position: sticky;
     top: 0;
     z-index: 20;
+
+    background-color: var(--rgb-color);
+    box-shadow:0 0 10px rgb(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    font-size: var(--info-text);
   }
   
   .nav-backcontainer {

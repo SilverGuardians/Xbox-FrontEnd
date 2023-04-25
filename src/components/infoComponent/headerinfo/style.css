@@ -1,0 +1,67 @@
+.info-container {
+    margin-bottom: var(--margin-2);
+    display: flex;
+    
+}
+
+.info-container .gamebox-img {
+    margin: var(--margin-top);
+    margin-left: 2rem;
+    width: 170px;
+    height: 170px;
+    background: #ccc;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+
+.titlegame {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size:xxx-large ;
+}
+
+h3{
+    color: #ADADAD;
+}
+
+h4{
+    color: #be8a10;
+}
+
+.btdownload{
+    margin-top: 2rem;
+}
+
+
+.s2{
+    color: #be8a10;
+    font-size: x-large;
+}
+
+button{
+    cursor: pointer;
+    background-color: var(--green-2-color);
+    width: 220px;
+    height: 35px;
+    border-radius: 6px;
+    border-width: 0.5px;
+    
+}
+
+span{
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
