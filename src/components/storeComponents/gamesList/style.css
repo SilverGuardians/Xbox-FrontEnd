@@ -95,6 +95,7 @@
 }
 .games-container .games-box-plus p{
     margin-left: 1rem;
+    color: #616161;
 }
 .games-container .games-box-plus:hover{
     transform: scale(1.01);
@@ -106,6 +107,7 @@
 
 .games-container .games-box {
     min-width: 200px;
+    max-width: 200px;
     height: 310px;
 }
 .games-info{
