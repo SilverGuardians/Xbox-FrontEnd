@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import { Link } from 'react-router-dom';
+import {FaStar} from 'react-icons/fa';
 
 
 const HeaderInfo = () => {
@@ -14,7 +15,7 @@ const HeaderInfo = () => {
         <div className='titlegame'>
           <h2>Dark Souls 3</h2> 
           <h3>FromSoftware</h3>
-          <h4>4,9 <span className='s2'>★</span></h4> 
+          <h4>4,9 <span className='s2'>★</span></h4>
         <div className='btdownload'>
         <button>
           <span>instalar</span> 

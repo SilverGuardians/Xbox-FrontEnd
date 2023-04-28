@@ -4,26 +4,21 @@ import GamesList from '../../components/storeComponents/gamesList'
 import { FaSearch } from 'react-icons/fa'
 import NavbarBack from '../../components/navbarBack'
 import HeaderInfo from '../../components/infoComponent/headerinfo'
+import ImgInfo from '../../components/infoComponent/imginfo'
 
 
 const GameInfo = () => {
     return (
         <>
             <NavbarBack />
-            <HeaderInfo />
-
             <main>
-                <div className="store-title">
-                    <div className='search'>
-                        <div className='search-icon'>
-                            <FaSearch />
-                        </div>
-                        <input type='test' placeholder='Buscar' />
-                    </div>
-                    <div></div>
-                </div>
-                <GamesList />
+                <HeaderInfo />
             </main>
+            <main>
+                <ImgInfo />
+            </main>
+
+
         </>
     )
 }
