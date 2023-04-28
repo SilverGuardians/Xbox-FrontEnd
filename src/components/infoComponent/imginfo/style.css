@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 0.7em;
     margin: 0 120px;
+
 }
 
 .grid-imginfo {
@@ -12,6 +13,9 @@
     grid-row: span 4;
 
 }
+
+
+
 
 .img-container .grid-imginfo img{
     object-fit: cover;

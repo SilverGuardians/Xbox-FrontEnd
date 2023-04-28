@@ -13,7 +13,9 @@ const GameInfo = () => {
             <NavbarBack />
             <main>
                 <HeaderInfo />
+                <hr></hr>
             </main>
+            
             <main>
                 <ImgInfo />
             </main>
