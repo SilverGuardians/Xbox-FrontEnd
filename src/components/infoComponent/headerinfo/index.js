@@ -7,7 +7,7 @@ const HeaderInfo = () => {
     return (
       <div className='info-container'>
         <div className='gamebox-img'>
-          <img src='' alt='ds3'>
+          <img src='https://gamehall.com.br/wp-content/uploads/2018/02/Dark-Souls-III-KeyArt-Ember.jpg' alt='ds3'>
             
           </img>
         </div>
