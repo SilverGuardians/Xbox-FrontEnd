@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: center;
     gap: 0.7em;
-
+    margin: 0 120px;
 }
 
-.grid-imginfo:nth-child(2n -2) {
+.grid-imginfo {
     grid-column: span 3;
     grid-row: span 4;
 
@@ -18,6 +18,34 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
+}
+
+.right-icon{
+    width: 15px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
     
+    cursor: pointer;
+} 
+
+.left-icon{
+    width: 15px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
     
+    cursor: pointer;
+} 
+
+.img-container .right-icon{
+    left: 95%;
+}
+
+.img-container .left-icon{
+    right: 95%;
 }
