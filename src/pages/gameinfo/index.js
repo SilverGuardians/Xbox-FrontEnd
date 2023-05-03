@@ -1,19 +1,19 @@
 import React from 'react'
 import './style.css'
-import GamesList from '../../components/storeComponents/gamesList'
-import { FaSearch } from 'react-icons/fa'
+// import GamesList from '../../components/storeComponents/gamesList'
+// import { FaSearch } from 'react-icons/fa'
 import NavbarBack from '../../components/navbarBack'
 import HeaderInfo from '../../components/infoComponent/headerinfo'
 import ImgInfo from '../../components/infoComponent/imginfo'
 
 
-const GameInfo = () => {
+const GameInfo = (data) => {
     return (
         <>
             <NavbarBack />
             <main>
                 <HeaderInfo />
-                <hr></hr>
+                <hr>{data.nome}</hr>
             </main>
             
             <main>
