@@ -15,7 +15,7 @@ const HeaderInfo = (info) => {
         </div>
         <div className='titlegame'>
           <h2>{info.info[0].nome}</h2> 
-          <h3>FromSoftware</h3>
+          <h3>{info.info[0].desenvolvedora}</h3>
           <h4>4,9 <span className='s2'>★</span></h4>
         <div className='btdownload'>
         <button>
