@@ -17,7 +17,7 @@ const GameInfo = (data) => {
     <>
       <NavbarBack />
       <main>
-        <HeaderInfo info={info}/>
+        <HeaderInfo info={info} />
         <hr></hr>
       </main>
 

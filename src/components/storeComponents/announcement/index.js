@@ -1,48 +1,60 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import CardProps from "../../storeComponents/gamesList/data";
-import './style.css'
-
+import CardProps from '../../storeComponents/gamesList/data';
+import './style.css';
 
 const Annoucement = () => {
+  const [count, setCount] = useState(1);
 
-  var params = CardProps.filter(item => {
-    return item.type == "navbar"
-  })
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCount((count) => (count % 3) + 1);
+    }, 10000);
+    return () => clearInterval(intervalId);
+  }, []);
+
+  const items = CardProps.filter((item) => item.type === 'navbar')[0].itens;
+  const item2Index = (count % 3) + 1;
+  const item3Index = (item2Index % 3) + 1;
 
   return (
     <div className='grid-annoucement'>
       <div className='grid-item'>
-
-        <img src={params[0].itens.item1.image} alt='teste-1'></img>
+  
+        <img src={items['item' + count].image}alt='teste-1'></img>
         <div className='annoucement-info'>
-          <h3>{params[0].itens.item1.nome}</h3>
-          <Link to={`/gameinfo/${params[0].itens.item1.id}`}>
-            <p>Ver mais</p>
-          </Link>
+        <h3>{items['item' + count].nome}</h3>
+        <Link to={`/gameinfo/${items['item' + count].id}`}>
+              <p>Ver mais</p>
+            </Link>
         </div>
       </div>
+  
       <div className='grid-item'>
-        <img src={params[0].itens.item2.image} alt='teste-1'></img>
+  
+        <img src={items['item' +  item2Index].image}alt='teste-1'></img>
         <div className='annoucement-info'>
-          <h3>{params[0].itens.item1.nome}</h3>
-          <Link to={`/gameinfo/${params[0].itens.item2.id}`}>
-            <p>Ver mais</p>
-          </Link>
+        <h3>{items['item' + count].nome}</h3>
+        <Link to={`/gameinfo/${items['item' + count].id}`}>
+              <p>Ver mais</p>
+            </Link>
         </div>
       </div>
+  
       <div className='grid-item'>
-        <img src={params[0].itens.item3.image} alt='teste-1'></img>
+  
+        <img src={items['item' +  item3Index].image}alt='teste-1'></img>
         <div className='annoucement-info'>
-          <h3>{params[0].itens.item1.nome}</h3>
-          <Link to={`/gameinfo/${params[0].itens.item3.id}`}>
-            <p>Ver mais</p>
-          </Link>
+        <h3>{items['item' + count].nome}</h3>
+        <Link to={`/gameinfo/${items['item' + count].id}`}>
+              <p>Ver mais</p>
+            </Link>
         </div>
       </div>
-
     </div>
   )
-}
+};
 
-export default Annoucement
+export default Annoucement;
+
+
