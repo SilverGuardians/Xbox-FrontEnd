@@ -21,7 +21,7 @@ const GameInfo = (data) => {
         <hr></hr>
       </main>
 
-      <main>{/* <ImgInfo /> */}</main>
+      <main><ImgInfo /></main>
     </>
   );
 };

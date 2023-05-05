@@ -102,9 +102,21 @@ const CardProps = [
       "https://th.bing.com/th/id/OIP.MRIzG2cXPAkTdASOpHmwGgHaLH?pid=ImgDet&rs=1",
     categoria: "RPG",
     desenvolvedora: " Motion-Twin",
+    imagens: {
+      imagens1: "https://preview.redd.it/what-ai-thinks-of-dead-cells-i-think-the-style-is-beautiful-v0-dbnbw9rubv1a1.png?width=640&crop=smart&auto=webp&s=31d8b8094b44e32f999ef5a527be726b1e733dc1",
+      imagens2: "https://preview.redd.it/what-ai-thinks-dead-cells-looks-like-in-portrait-v0-4w498yxtnz1a1.png?width=640&crop=smart&auto=webp&s=bd50c12c7886ea6ef553bc1383a02f159b3e5269",
+      imagens2: "https://preview.redd.it/what-ai-thinks-of-dead-cells-i-think-the-style-is-beautiful-v0-e9ev2crubv1a1.png?width=640&crop=smart&auto=webp&s=fde6cafcfc85b57130a64f78cf3e7c5c3b7604e2",
+  },
   },
   {
     id: "14",
+    nome: "Rayman Legends",
+    image: "https://cms-assets-p.c6bank.com.br/uploads/ubisoft-brasil-e-c6-bank-rayman-legends.jpg",
+    categoria: "RPG",
+    desenvolvedora: "Bethesda Softworks",
+  },
+  {
+    id: "15",
     nome: "Fallout 4",
     image: "https://i.scdn.co/image/ab67616d0000b273050fea0d19777c55cf3453c2",
     categoria: "RPG",

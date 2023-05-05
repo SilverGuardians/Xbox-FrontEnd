@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import {FaRegArrowAltCircleRight} from 'react-icons/fa'
 import Arrow1 from '../../../assets/avancar.png';
 import Arrow2 from '../../../assets/voltar2.png';
+
+import CardProps from '../../storeComponents/gamesList/data';
+
 const ImgInfo = () => {
     return (
       <div className='img-container'>
