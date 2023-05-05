@@ -11,6 +11,7 @@
 .grid-imginfo {
     grid-column: span 3;
     grid-row: span 4;
+    overflow-x: hidden;
 
 }
 
