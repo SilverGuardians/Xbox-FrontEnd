@@ -96,7 +96,7 @@ const CardProps = [
     desenvolvedora: "Team Cherry",
   },
   {
-    id: "13",
+    id: "1001",
     nome: "Dead Cells",
     image:
       "https://th.bing.com/th/id/OIP.MRIzG2cXPAkTdASOpHmwGgHaLH?pid=ImgDet&rs=1",
@@ -106,10 +106,10 @@ const CardProps = [
       imagens1: "https://preview.redd.it/what-ai-thinks-of-dead-cells-i-think-the-style-is-beautiful-v0-dbnbw9rubv1a1.png?width=640&crop=smart&auto=webp&s=31d8b8094b44e32f999ef5a527be726b1e733dc1",
       imagens2: "https://preview.redd.it/what-ai-thinks-dead-cells-looks-like-in-portrait-v0-4w498yxtnz1a1.png?width=640&crop=smart&auto=webp&s=bd50c12c7886ea6ef553bc1383a02f159b3e5269",
       imagens2: "https://preview.redd.it/what-ai-thinks-of-dead-cells-i-think-the-style-is-beautiful-v0-e9ev2crubv1a1.png?width=640&crop=smart&auto=webp&s=fde6cafcfc85b57130a64f78cf3e7c5c3b7604e2",
-  },
+    },
   },
   {
-    id: "14",
+    id: "1000",
     nome: "Rayman Legends",
     image: "https://cms-assets-p.c6bank.com.br/uploads/ubisoft-brasil-e-c6-bank-rayman-legends.jpg",
     categoria: "RPG",
@@ -122,6 +122,30 @@ const CardProps = [
     categoria: "RPG",
     desenvolvedora: "Bethesda Softworks",
   },
-  
+
+  /*------------------------------------ ANUNCIOS ------------------------------------*/
+
+  {
+    type: 'navbar',
+    itens: {
+      item1: {
+        id: '1000',
+        nome: 'Raymen Legend',
+        image: 'https://cdn1.epicgames.com/undefined/offer/RL---S1-2560x1440-dff0b62be58a38af1355b211ac66f895.jpg'
+      },
+      item2: {
+        id: '1001',
+        nome: 'Dead Cells',
+        image: 'https://preview.redd.it/what-ai-thinks-of-dead-cells-i-think-the-style-is-beautiful-v0-gx2llf2ubv1a1.png?width=640&crop=smart&auto=webp&s=dbb9efb4ac301c3cc7b362c27b34dbc3dd194d49'
+      },
+      item3: {
+        id: '1000',
+        nome: 'Ghostwire',
+        image: 'https://www.centralxbox.com.br/wp-content/uploads/2018/08/unravel-2-cover.jpg'
+      },
+    }
+
+  },
+
 ];
 export default CardProps;
