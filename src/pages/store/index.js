@@ -9,24 +9,24 @@ import GamesList from '../../components/storeComponents/gamesList'
 const Store = () => {
     return (
         <>
-            <Navbar />
-            <main>
-                <div className="store-title">
-                    <div className='back'>
-                        <Link to='/'><img src={Voltar} alt="Voltar" /></Link>
+            <div className='background-image'>
+                <Navbar />
+                <main>
+                    <div className="store-title">
+                        <div className='back'>
+                            <Link to='/'><img src={Voltar} alt="Voltar" /></Link>
+                        </div>
+                        <h2>Microsoft Store</h2>
+                        <div></div>
                     </div>
-                    <h2>Microsoft Store</h2>
-                    <div></div>
-                </div>
-                <div>
-                    <Annoucement/>
-                </div>
-                <hr className='line'></hr>
-            </main>
-            <main>
-               
-            </main>
-                  <GamesList />
+                    <div>
+                        <Annoucement />
+                    </div>
+                </main>
+            </div>
+            <hr className='line'></hr>
+          
+            <GamesList />
         </>
     )
 }

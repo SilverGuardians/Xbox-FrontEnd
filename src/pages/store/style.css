@@ -1,3 +1,9 @@
+.background-image {
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../../assets/rayman.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
 
 .store-title {
     display: flex;
@@ -5,13 +11,11 @@
     align-items: center;
     padding-bottom: var(--padding-2);
 }
-.store-title h2{
+
+.store-title h2 {
     font-size: var(--title-text);
 }
+
 .store-container .back img {
     color: var(--white-color);
-}
-
-.line {
-    margin-top: var(--margin-3);
 }

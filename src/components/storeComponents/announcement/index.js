@@ -12,7 +12,7 @@ const Annoucement = () => {
         <img src='https://cdn1.epicgames.com/undefined/offer/RL---S1-2560x1440-dff0b62be58a38af1355b211ac66f895.jpg' alt='teste-1'></img>
         <div className='annoucement-info'>
           <h3>Raymen Legends</h3>
-          <Link to='/gameinfo'>
+          <Link to='/gameinfo/'>
             <p>Ver mais</p>
           </Link>
         </div>

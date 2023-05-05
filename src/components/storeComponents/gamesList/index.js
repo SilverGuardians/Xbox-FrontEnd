@@ -8,18 +8,6 @@ import GameInfo from "../../../pages/gameinfo";
 import { Link } from "react-router-dom";
 
 const GamesList = () => {
-  const [pageOpen, setPageOpen] = useState(false);
-  const [data, setData] = useState();
-
-  console.log(pageOpen);
-  console.log(data);
-
-  function setter(e, item) {
-    e.preventDefault();
-    console.log("im here");
-    setPageOpen(true);
-    setData(item);
-  }
 
   return (
     <>
