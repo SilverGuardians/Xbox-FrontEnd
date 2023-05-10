@@ -1,0 +1,49 @@
+.sidebar {
+    width: 21rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar .side-info {
+    padding: 1.2rem;
+}
+
+.sidebar .side-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+}
+
+.sidebar .side-search input {
+    width: 100%;
+    height: 30px;
+    padding: 4px 10px;
+    border-radius: 1px;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.sidebar .side-menu {
+    padding: 1.2rem 0;
+}
+.sidebar .side-menu ul li {
+    cursor: pointer;
+    padding: 0.9rem 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    transition: all 300ms ease;
+}
+.sidebar .side-menu ul li h3{
+    margin-left: 2rem;
+}
+.sidebar .side-menu ul li:hover {
+    background: var(--green-color);
+}
+
+.sidebar .side-menu ul li:hover h3 {
+    color: white;
+}

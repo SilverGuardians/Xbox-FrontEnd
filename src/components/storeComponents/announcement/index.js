@@ -9,7 +9,7 @@ const Annoucement = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCount((count) => (count % 3) + 1);
-    }, 10000);
+    }, 5000);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -20,35 +20,35 @@ const Annoucement = () => {
   return (
     <div className='grid-annoucement'>
       <div className='grid-item'>
-  
-        <img src={items['item' + count].image}alt='teste-1'></img>
+
+        <img src={items['item' + count].image} alt='teste-1'></img>
         <div className='annoucement-info'>
-        <h3>{items['item' + count].nome}</h3>
-        <Link to={`/gameinfo/${items['item' + count].id}`}>
-              <p>Ver mais</p>
-            </Link>
+          <h3>{items['item' + count].nome}</h3>
+          <Link to={`/gameinfo/${items['item' + count].id}`}>
+            <p>Ver mais</p>
+          </Link>
         </div>
       </div>
-  
+
       <div className='grid-item'>
-  
-        <img src={items['item' +  item2Index].image}alt='teste-1'></img>
+
+        <img src={items['item' + item2Index].image} alt='teste-1'></img>
         <div className='annoucement-info'>
-        <h3>{items['item' + count].nome}</h3>
-        <Link to={`/gameinfo/${items['item' + count].id}`}>
-              <p>Ver mais</p>
-            </Link>
+          <h3>{items['item' + count].nome}</h3>
+          <Link to={`/gameinfo/${items['item' + count].id}`}>
+            <p>Ver mais</p>
+          </Link>
         </div>
       </div>
-  
+
       <div className='grid-item'>
-  
-        <img src={items['item' +  item3Index].image}alt='teste-1'></img>
+
+        <img src={items['item' + item3Index].image} alt='teste-1'></img>
         <div className='annoucement-info'>
-        <h3>{items['item' + count].nome}</h3>
-        <Link to={`/gameinfo/${items['item' + count].id}`}>
-              <p>Ver mais</p>
-            </Link>
+          <h3>{items['item' + count].nome}</h3>
+          <Link to={`/gameinfo/${items['item' + count].id}`}>
+            <p>Ver mais</p>
+          </Link>
         </div>
       </div>
     </div>
